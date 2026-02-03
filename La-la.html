@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Important Announcement 😌</title>
+  <style>
+    body {
+      background: linear-gradient(135deg, #fbc2eb, #a6c1ee);
+      font-family: "Comic Sans MS", Arial, sans-serif;
+      text-align: center;
+      padding: 50px;
+    }
+    .box {
+      background: white;
+      padding: 30px;
+      border-radius: 25px;
+      max-width: 520px;
+      margin: auto;
+      box-shadow: 0 15px 25px rgba(0,0,0,0.2);
+    }
+    h1 {
+      color: #ff4d6d;
+    }
+    button {
+      margin: 10px;
+      padding: 12px 25px;
+      font-size: 16px;
+      border: none;
+      border-radius: 25px;
+      background-color: #ff4d6d;
+      color: white;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #e63950;
+    }
+    #message {
+      display: none;
+      margin-top: 20px;
+      font-size: 18px;
+    }
+    .small {
+      font-size: 14px;
+      color: gray;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Background Music -->
+  <audio id="bgMusic" loop>
+    <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+  </audio>
+
+  <div class="box">
+    <h1>⚠️ Warning ⚠️</h1>
+    <p>This website contains feelings.<br>Proceed at your own risk 😌</p>
+
+    <button onclick="startConfession()">I’m Brave 😤</button>
+    <button onclick="alert('Too late 😏')">I’m Not Ready 🫣</button>
+
+    <div id="message">
+      <p>
+        Hello 😳<br><br>
+        Hindi ko na pahahabain kasi baka umatras pa ako 😂<br><br>
+        So here it is…<br><br>
+        <b>I like you.</b> 💕<br><br>
+        Oo, ikaw.  
+        Hindi to prank, hindi to dare,  
+        at sadly… hindi rin homework 😭📚<br><br>
+        Chill lang ha, no pressure 😌  
+        Gusto ko lang sabihin kasi  
+        life is short and courage is temporary 😎<br><br>
+        <span class="small">
+        PS: If this is awkward, let’s just pretend  
+        na cute website lang ‘to 🙈
+        </span>
+      </p>
+    </div>
+  </div>
+
+  <script>
+    function startConfession() {
+      document.getElementById("message").style.display = "block";
+      document.getElementById("bgMusic").play();
+    }
+  </script>
+
+</body>
+</html>
