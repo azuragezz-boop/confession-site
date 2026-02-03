@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>PLEASE READ THIS 😭</title>
+  <style>
+    body {
+      background: linear-gradient(45deg, #ff9a9e, #fad0c4, #a1c4fd);
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 40px;
+      animation: bg 5s infinite alternate;
+    }
+    @keyframes bg {
+      0% { filter: hue-rotate(0deg); }
+      100% { filter: hue-rotate(60deg); }
+    }
+    .box {
+      background: white;
+      padding: 30px;
+      border-radius: 20px;
+      max-width: 550px;
+      margin: auto;
+      box-shadow: 0 0 30px rgba(0,0,0,0.3);
+    }
+    h1 {
+      color: #ff4d6d;
+      animation: shake 0.3s infinite alternate;
+    }
+    @keyframes shake {
+      from { transform: rotate(-1deg); }
+      to { transform: rotate(1deg); }
+    }
+    button {
+      margin: 10px;
+      padding: 14px 28px;
+      font-size: 16px;
+      border: none;
+      border-radius: 30px;
+      background-color: #ff4d6d;
+      color: white;
+      cursor: pointer;
+    }
+    button:hover {
+      transform: scale(1.1);
+    }
+    #message {
+      display: none;
+      margin-top: 25px;
+      font-size: 18px;
+      line-height: 1.6;
+    }
+    .tiny {
+      font-size: 12px;
+      color: gray;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- CHAOTIC MUSIC -->
+  <audio id="bgMusic" loop>
+    <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3" type="audio/mpeg">
+  </audio>
+
+  <div class="box">
+    <h1>WAIT 😭✋</h1>
+    <p>Before you close this tab…<br>
+    too late actually 😌</p>
+
+    <button onclick="startChaos()">WHAT IS THIS 😭</button>
+    <button onclick="panic()">NOPE</button>
+
+    <div id="message">
+      <p>
+        OKAY HI 😳<br><br>
+
+        I didn’t plan this.  
+        This website wasn’t in my 5-year plan.  
+        But here we are. 💀<br><br>
+
+        So umm…<br>
+        I like you. 💗<br><br>
+
+        Like…  
+        *“check phone hoping it’s you”* like you.  
+        *“why are you stuck in my head”* like you.  
+        *“why am I coding instead of sleeping”* like you 😭<br><br>
+
+        This is not a joke.  
+        This is not a prank.  
+        This is a cry for emotional stability. 🫠<br><br>
+
+        No pressure ha.  
+        You don’t need to reply.  
+        You don’t need to do anything.<br><br>
+
+        I just needed you to know  
+        that somewhere out there  
+        someone thought of you enough  
+        to make this chaotic mess 💕<br><br>
+
+        <span class="tiny">
+        PS: If this scared you…  
+        understandable. Have a nice day 😌
+        </span>
+      </p>
+    </div>
+  </div>
+
+  <script>
+    function startChaos() {
+      document.getElementById("message").style.display = "block";
+      document.getElementById("bgMusic").play();
+      alert("WHY ARE YOU STILL HERE 😭");
+    }
+    function panic() {
+      alert("YOU CAN'T ESCAPE FEELINGS 😌");
+    }
+  </script>
+
+</body>
+                           </html>
